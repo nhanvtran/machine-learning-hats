@@ -6,14 +6,14 @@ This is a set of tutorials for the Machine Learning Hands-on Advanced Tutorial S
 
 ## Main notebooks in this tutorial
 
- 0. [`a-dataset-and-plot.ipynb`](0-setup-libraries.ipynb): reading/writing datasets from `ROOT` files with `uproot` and plotting with `matplotlib`
- 1. [`b-dense.ipynb`](1-datasets-uproot.ipynb): building, training, and evaluating a fully connected (dense) neural network in `Keras`
- 2. [`4-preprocessing.ipynb`](4-preprocessing.ipynb): preprocessing CMS open data to build jet-images (optional) -- *still adapting, do not try yet*
- 3. [`5-conv2d.ipynb`](5-conv2d.ipynb): building, training, and evaluating a 2D convolutional neural network in `Keras` -- *still adapting, do not try yet*
+ 0. [`a-dataset-and-plot.ipynb`](a-dataset-and-plot.ipynb): reading/writing datasets from `ROOT` files with `uproot` and plotting with `matplotlib`
+ 1. [`b-dense.ipynb`](b-dense.ipynb): building, training, and evaluating a fully connected (dense) neural network in `Keras`
+ 2. [`b.1-dense-pytorch.ipynb`](b.1-dense-pytorch.ipynb): preprocessing CMS open data to build jet-images (optional) 
+ 3. [`c-conv2d.ipynb`](c-conv2d.ipynb): preprocessing, building, training, and evaluating a 2D convolutional neural network in `Keras` 
 
 ## Setup
 
-We will be setting up the environment using Miniconda () wity Python3.  This is wrapped in a Docker () container for easy deployment.  
+We will be setting up the environment using [Miniconda](https://docs.conda.io/en/latest/miniconda.html) wity Python3.  This is wrapped in a [Docker](https://www.docker.com/) container for easy deployment.  
 
 ### Plain Miniconda3 setup
 ```
@@ -28,7 +28,5 @@ _On its way -- need some help from Maria_
 
 ## Links
 
-The indico page is: [https://indico.cern.ch/event/814896/](https://indico.cern.ch/event/814896/)
-
-The Mattermost for live support is: [https://mattermost.web.cern.ch/cms-exp/channels/machine-learning-hats](https://mattermost.web.cern.ch/cms-exp/channels/machine-learning-hats)
+The accompanying lecture is [here](https://www.dropbox.com/s/z5b5elnpqahfrjz/MLTutorial_2020_V1.pdf?dl=0)
 
