@@ -1,6 +1,7 @@
 name: analysis
 channels:
     - conda-forge
+    - pytorch
 dependencies:
     - uproot
     - h5py
@@ -10,4 +11,4 @@ dependencies:
     - scikit-optimize
     - matplotlib
     - pandas
-    - torch
+    - pytorch
