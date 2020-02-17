@@ -1,0 +1,13 @@
+name: analysis
+channels:
+    - conda-forge
+dependencies:
+    - uproot
+    - h5py
+    - keras
+    - tensorflow
+    - scikit-learn
+    - scikit-optimize
+    - matplotlib
+    - pandas
+    - torch
