@@ -1,4 +1,4 @@
-# Machine Learning Hands-on Advanced Tutorial Session (HATS)
+# Machine Learning Tutorial Session
 
 ## Introduction
 
